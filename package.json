@@ -2,9 +2,10 @@
   "name": "soc-med_backend",
   "version": "1.0.0",
   "description": "backend for social media app",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "src/index.js"
   },
   "keywords": [
     "javascript",
@@ -14,5 +15,8 @@
     "vivek"
   ],
   "author": "Vivek Kumar",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
